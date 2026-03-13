@@ -144,10 +144,10 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/agentic-coding"
+              href="/ai-annotation"
               className="bg-emerald-400 text-emerald-900 font-bold px-8 py-4 rounded-xl hover:bg-emerald-300 transition-colors text-lg"
             >
-              Highest Earner: Agentic Coding →
+              Most Popular: AI Annotation Jobs →
             </Link>
             <a
               href="#categories"
