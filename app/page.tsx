@@ -183,10 +183,9 @@ export default function HomePage() {
       <section id="categories" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Choose Your Income Stream</h2>
-          <p className="text-gray-500 text-lg max-w-xl mx-auto mb-3">
+          <p className="text-gray-500 text-lg max-w-xl mx-auto">
             Every category is beginner-friendly. Pick one that matches your current skills and start earning this week.
           </p>
-          <p className="text-emerald-700 text-sm font-medium">Not sure where to start? Try AI Annotation — it requires no experience and pays immediately.</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -228,6 +227,11 @@ export default function HomePage() {
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="mt-10 text-center bg-emerald-50 border border-emerald-100 rounded-2xl px-6 py-6">
+          <p className="text-emerald-900 font-bold text-lg mb-1">Not sure where to start?</p>
+          <p className="text-emerald-700 text-sm">Try <Link href="/ai-annotation" className="font-semibold underline hover:text-emerald-900">AI Annotation Jobs</Link> — no experience needed and you can start earning this week.</p>
         </div>
       </section>
 
