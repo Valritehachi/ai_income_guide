@@ -370,6 +370,8 @@ export default function CodingJobsPage() {
           <Link href="/online-writing" className="hover:text-white transition-colors">Online Writing</Link>
           <Link href="/survey-sites" className="hover:text-white transition-colors">Survey Sites</Link>
           <Link href="/content-creation" className="hover:text-white transition-colors">Content Creation</Link>
+          <Link href="/virtual-assistant" className="hover:text-white transition-colors">Virtual Assistant</Link>
+          <Link href="/ai-stock-images" className="hover:text-white transition-colors">AI Stock Images</Link>
           <Link href="/agentic-coding" className="hover:text-white transition-colors">Agentic Coding</Link>
         </div>
         <p className="text-gray-600">© 2026 AI Income Guide. For informational purposes only.</p>
