@@ -25,7 +25,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-bold text-gray-900 mb-3">1. Who We Are</h2>
             <p>
-              AI Income Guide (<strong>aiincomeguide.com</strong>) is an informational website that helps people discover legitimate ways to earn money in the AI economy. We are not an employer, recruitment agency, or job board. We do not process applications or handle employment on behalf of any listed platform.
+              AI Income Guide (<strong>bestaijobs.net</strong>) is an informational website that helps people discover legitimate ways to earn money in the AI economy. We are not an employer, recruitment agency, or job board. We do not process applications or handle employment on behalf of any listed platform.
             </p>
           </section>
 
