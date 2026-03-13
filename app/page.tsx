@@ -202,7 +202,7 @@ export default function HomePage() {
               {cat.featured && (
                 <div className="absolute -top-3 left-6">
                   <span className="bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
-                    Highest Earning
+                    Most Popular
                   </span>
                 </div>
               )}
