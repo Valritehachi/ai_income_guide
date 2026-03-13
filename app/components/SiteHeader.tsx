@@ -21,7 +21,7 @@ export default function SiteHeader({ activePath }: { activePath: string }) {
 
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link
           href="/"
           onClick={() => setOpen(false)}
@@ -31,7 +31,7 @@ export default function SiteHeader({ activePath }: { activePath: string }) {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-2 text-xs font-medium text-gray-600">
+        <nav className="hidden lg:flex items-center gap-5 text-sm font-medium text-gray-600">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -47,11 +47,11 @@ export default function SiteHeader({ activePath }: { activePath: string }) {
           ))}
         </nav>
 
-        {/* Hamburger button — shown below xl */}
+        {/* Hamburger button — shown below lg */}
         <button
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
-          className="xl:hidden p-2 rounded-lg text-gray-600 hover:text-emerald-700 hover:bg-gray-50 transition-colors"
+          className="lg:hidden p-2 rounded-lg text-gray-600 hover:text-emerald-700 hover:bg-gray-50 transition-colors"
         >
           {open ? (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -67,7 +67,7 @@ export default function SiteHeader({ activePath }: { activePath: string }) {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="xl:hidden border-t border-gray-100 bg-white shadow-lg">
+        <div className="lg:hidden border-t border-gray-100 bg-white shadow-lg">
           <nav className="flex flex-col">
             {navLinks.map((link) => (
               <Link
